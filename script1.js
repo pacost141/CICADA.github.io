@@ -7,6 +7,7 @@ const aboutTeamText = document.querySelector('.about p:nth-of-type(2)');
 const serverFeaturesTitle = document.querySelector('.about h2:nth-of-type(2)');
 const serverFeaturesList = document.querySelectorAll('.about ul li');
 const joinUsText = document.querySelector('.about p:last-of-type');
+const introText = document.querySelector('.about p:nth-of-type(2)');
 
 let currentLanguage = 'en';
 
@@ -38,6 +39,7 @@ function toggleLanguage() {
         serverFeaturesList[1].textContent = 'Стандартный геймплей и мир Minecraft';
         serverFeaturesList[2].textContent = 'Спонтанные приключения и командные события';
         joinUsText.textContent = 'Присоединяйтесь к нам, чтобы насладиться оригинальным игровым опытом Minecraft и создать уютное сообщество любителей Vanilla сервера на CICADA!';
+        introText.textContent = 'Мы рады приветствовать вас на нашем сервере, где вы можете насладиться чистым и классическим геймплеем Minecraft. У нас нет модов или плагинов, только оригинальный игровой опыт на чистом сервере!';
         currentLanguage = 'ru';
     } else {
         languageBtn.textContent = 'Language';
@@ -66,6 +68,7 @@ function toggleLanguage() {
         serverFeaturesList[1].textContent = 'Standard gameplay and Minecraft world';
         serverFeaturesList[2].textContent = 'Spontaneous adventures and team events';
         joinUsText.textContent = 'Join us to enjoy the original Minecraft gaming experience and create a cozy community of Vanilla server enthusiasts on CICADA!';
+        introText.textContent = 'We are delighted to welcome you to our server, where you can enjoy the pure and classic gameplay of Minecraft. We have no mods or plugins, only the original gaming experience on a clean server!';
         currentLanguage = 'en';
     }
 }

@@ -131,11 +131,11 @@ footer {
 }
 .about {
     padding: 20px;
-    background-color: rgba(102, 102, 102, 0.7);
-    background-size: cover;
-    background-position: center;
     color: #fff;
     text-align: center;
+    background-image: url('cicada.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .about h1 {

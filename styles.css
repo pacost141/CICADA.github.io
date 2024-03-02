@@ -1,0 +1,172 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('cicada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn,
+.btn-gray {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn {
+    background-color: #ff4500;
+}
+
+.btn-gray {
+    background-color: #555;
+}
+
+.btn:hover,
+.btn-gray:hover {
+    background-color: #a52a00;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgba(102, 102, 102, 0.3);
+    color: #fff;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Стили для цен на странице Pricing */
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.pricing-tier {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(102, 102, 102, 0.3);
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pricing-tier:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 69, 0, 0.3); /* Цвет фона при наведении */
+    transition: background-color 0.3s; /* Плавное изменение цвета фона */
+    cursor: pointer; /* Изменение курсора при наведении */
+
+}
+
+.pricing-tier h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-tier p {
+    color: #fff;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .pricing-tier {
+        width: 100%;
+    }
+}
+.about {
+    padding: 20px;
+    background-color: rgba(102, 102, 102, 0.7);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.about h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    color: #fff;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about li {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
